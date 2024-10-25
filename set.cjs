@@ -3,7 +3,7 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "",
+  SESSION_ID: process.env.SESSION_ID || "Gifted~9wj5NM7N",
   HEROKU_API_TOKEN: process.env.HEROKU_API_TOKEN || "HRKU-0a1fe665-8a35-42e8-b7ad-761f25ffe195",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   KOYEB_API_TOKEN: process.env.KOYEB_API_TOKEN || "",
@@ -28,7 +28,7 @@ const config = {
   PREFIX: process.env.PREFIX || '.',
   PORT: process.env.PORT || "5000", /* Where App Will Listen On */
   OWNER_NAME: process.env.OWNER_NAME || "ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "254762016957",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "94741026371",
   WELCOME: process.env.WELCOME !== undefined ? process.env.WELCOME === 'true' : false,
 };
 
